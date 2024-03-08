@@ -1,0 +1,34 @@
+cd  Git_Proj/
+  504  git init
+  505  ls -l
+  506  ls
+  507  ls
+  508  git status
+  509  git add file1.txt
+  510  git add file.txt.txt
+  511  git add file1.txt.txt
+  512  git status
+  513  git commit -m "file1"
+  514  git status
+  515  git log
+  516  git log --oneline
+  517  ls
+  518  git ls-files
+  519  git status
+  520  git add file2.txt
+  521  git status
+  522  git commit -m "hello"
+  523  git status
+  524  git ls-files
+  525  ls
+  526  git log
+  527  git log --oneline
+  528  ls
+  529  git status
+  530  git commit -a -m "file1 edited"
+  531  git status
+  532  git ls-files
+  533  git log
+  534  ls
+  535  git ls-files
+  536  history
