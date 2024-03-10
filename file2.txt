@@ -32,3 +32,50 @@ cd  Git_Proj/
   534  ls
   535  git ls-files
   536  history
+
+git rm file1.txt.txt
+  503  ls
+  504  git status
+  505  git commit -m "del file"
+  506  git status
+  507  git rm --cached  file1.txt.txt
+  508  git status
+  509  git ls-files
+  510  git staus
+  511  git status
+  512  ls
+  513  git add .gitignore
+  514  git commit -m "ignore"
+  515  git log --oneline
+  516  git status
+  517  git commit -a -m "ignore file"
+  518  git status
+  519  git log --oneline
+  520  git revert 0b33769
+  521  git revert 1135e72
+  522  git status
+  523  git log --oneline
+  524  git reset --hard e78a3c4
+  525  git log --oneline
+  526  git reset --hard 42c29b0
+  527  git log --oneline
+  528  ls
+  529  git branch
+  530  git branch b1 master
+  531  git branch
+  532  ls
+  533  git checkout b1
+  534  ls
+  535  git log --oneline
+  536  ls
+  537  git status
+  538  git add file4.txt
+  539  git commit -m "file4 b1"
+  540  git status
+  541  git log --oneline
+  542  git checkout master
+  543  ls
+  544  git log --oneline
+  545  git log --oneline b1
+  546  git log --oneline
+  547  history
