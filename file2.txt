@@ -79,3 +79,55 @@ git rm file1.txt.txt
   545  git log --oneline b1
   546  git log --oneline
   547  history
+hello
+
+
+git branch
+  509  git checkout b1
+  510  git status
+  511  git checkout master
+  512  git merge b1 master
+  513  ls
+  514  git log --oneline
+  515  git branch
+  516  git status
+  517  git commit -m "file5.txt"
+  518  git add file5.txt
+  519  git commit -m "file5"
+  520  ls
+  521  git checkout b1
+  522  ls
+  523  git add file1.txt
+  524  git commit -m "file1"
+  525  git status
+  526  git checkout master
+  527  git merge b1 master
+  528  ls
+  529  git status
+  530  git status
+  531  git stash
+  532  git status
+  533  git stash list
+  534  git show stash@{0}
+  535  git status
+  536  git stash pop stash@{0}
+  537  git status
+  538  git stash list
+  539  git stash
+  540  git stash list
+  541  git stash -p
+  542  git pop stash stash@{0}
+  543  git stash pop stash@{0
+  544  git stash pop stash@{0}
+  545  git stash -p
+  546  git stash -p
+  547  git status
+  548  git stash -p
+  549  git staus
+  550  git status
+  551  git stash list
+  552  git stash drop stash@{0}
+  553  git stash list
+  554  git stash clear
+  555  git stash list
+  556  history
